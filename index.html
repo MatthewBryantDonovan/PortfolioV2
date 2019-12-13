@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Matthew's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Girassol|Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper teal darken-2">
+            <a href="#" id="nameTitle2"
+                class="brand-logo grey-text text-lighten-3 hide-on-small-only show-on-medium-and-up center">Matthew
+                Donovan</a>
+            <a href="#" id="nameTitle"
+                class="brand-logo grey-text text-lighten-3 hide-on-med-and-up show-on-small">Matthew Donovan</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#" class="grey-text text-lighten-3" onclick="bio()">About Me</a></li>
+                <li><a href="#modal1" class="grey-text text-lighten-3 modal-trigger" onclick="contact()">Contact</a>
+                </li>
+                <li><a href="#" class="grey-text text-lighten-3" onclick="portfolio()">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav hoverable teal lighten-1" id="mobile-demo">
+        <li><a href="#" class="grey-text text-lighten-3" onclick="bio()">About Me</a></li>
+        <li><a href="#modal1" class="grey-text text-lighten-3 modal-trigger" onclick="contact()">Contact</a></li>
+        <li><a href="#" class="grey-text text-lighten-3" onclick="portfolio()">Projects</a></li>
+    </ul>
+
+    <div class="container">
+        <div id="bio" class="section hoverable">
+            <div class="row">
+                <img class="circle float col s12 m6 l4" src="assets/images/Matt.jpg" alt="Matthew Donovan">
+                <p class="flow-text"> Hey there! My name is Matthew Donovan and I am a Full Stack Web Developer with a
+                    past in
+                    hospitality leadership that goes above and
+                    beyond to
+                    bring the consumer what they want.
+                    My University of Central Flordia’s bootcamp certificate showcases
+                    excellence
+                    in browser-based technologies, databases, server-side development, and PHP. I regularly interact
+                    with
+                    modern
+                    collaboration platforms such as GitHub, Zoom, and Slack to ensure my connection with the crew is up
+                    to speed
+                    on the latest and greatest. With a deep passion for coding, I often inspire coding allies to keep
+                    their
+                    spirits up
+                    so the cohort may spearhead toward a unified goal. I am eagerly awaiting my home on a team that puts
+                    quality
+                    and
+                    respect toward the innovations of tomorrow.
+                </p>
+                <p class="flow-text"> My personal hobbies include video games, board games, and watching movies. I
+                    approach these
+                    hobbies with
+                    deep thought when consuming them, often putting myself in the shoes of the designer. In doing so I
+                    end up
+                    finding better ways to
+                    best opponents, optimize actions, and realize new details.
+                </p>
+                <p class="flow-text"> Head over to my portfolio page to see all of the work I did from the University of
+                    Central
+                    Flordia’s
+                    bootcamp I
+                    attended.
+                    Each project honed in on different types of skills. It was great to see each topic blossom into
+                    complex team
+                    oriented projects in which I could be a important part of the bigger picture.</p>
+                <p class="flow-text"> It was a great experience collaborating with others. Seeing how other people code
+                    gives me an
+                    awesome
+                    perspective on the many ways you can approach the same conclusion. Incorporating the great ideas
+                    others have
+                    into my
+                    future works is a great feeling. Diversity is the spice of life, its great to witness it in code
+                    form!</p>
+                <p class="flow-text">Feel free to contact me if you have any questions about my work or if you are
+                    looking for someone
+                    with my
+                    talents to be an addition to your team.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col l1 hide-on-med-and-down show-on-large"></div>
+            <div class="carouselSlick center-align col s12 m12 l10">
+
+                <div class="active car">
+                    <img data-lazy="./assets/images/cat.gif" data-slide="giphyMatt" class="car-img img0" alt="giphyMatt">
+                    <a href="https://matthewbryantdonovan.github.io/giphyMatt/index.html#" target="_blank" class="center-align teal-text text-darken-3"><i class="material-icons">web</i>Site</a>
+                    <a href="https://github.com/MatthewBryantDonovan/giphyMatt" target="_blank" class="center-align teal-text text-darken-3"><i
+                            class="material-icons">code</i>GitHub</a>
+                </div>
+                <div class="car">
+                    <img data-lazy="./assets/images/draculaThrone.jpg" data-slide="Castlevania: Halls of Supremacy"
+                        class="car-img img1" alt="Castlevania: Halls of Supremacy">
+                    <a href="https://matthewbryantdonovan.github.io/RPG_Game/index.html#" target="_blank" class="center-align teal-text text-darken-3"><i class="material-icons">web</i>Site</a>
+                    <a href="https://github.com/MatthewBryantDonovan/RPG_Game" target="_blank" class="center-align teal-text text-darken-3"><i
+                            class="material-icons">code</i>GitHub</a>
+                </div>
+                <div class="car">
+                    <img data-lazy="./assets/images/johnWickBG.jpg" data-slide="John Wick Trivia" class="car-img img2"
+                        alt="John Wick Trivia">
+                    <a href="https://matthewbryantdonovan.github.io/TriviaGame/index.html#" target="_blank" class="center-align teal-text text-darken-3"><i class="material-icons">web</i>Site</a>
+                    <a href="https://github.com/MatthewBryantDonovan/TriviaGame" target="_blank" class="center-align teal-text text-darken-3"><i
+                            class="material-icons">code</i>GitHub</a> </div>
+                <div class="car">
+                    <img data-lazy="./assets/images/RPS.png" data-slide="Rock Paper Scissors Online"
+                        class="car-img img3" alt="Rock Paper Scissors Online">
+                    <a href="https://matthewbryantdonovan.github.io/RPS-Multiplayer/" target="_blank" class="center-align teal-text text-darken-3"><i class="material-icons">web</i>Site</a>
+                    <a href="https://github.com/MatthewBryantDonovan/RPS-Multiplayer" target="_blank" class="center-align teal-text text-darken-3"><i
+                            class="material-icons">code</i>GitHub</a> </div>
+                <div class="car">
+                    <img data-lazy="./assets/images/talkingBlank.gif" data-slide="Metal Gear Hangman"
+                        class="car-img img4" alt="Metal Gear Hangman">
+                    <a href="https://matthewbryantdonovan.github.io/Hangman/index.html#" target="_blank" class="center-align teal-text text-darken-3"><i class="material-icons">web</i>Site</a>
+                    <a href="https://github.com/MatthewBryantDonovan/Hangman" target="_blank" class="center-align teal-text text-darken-3"><i
+                            class="material-icons">code</i>GitHub</a> </div>
+                <div class="car">
+                    <img data-lazy="./assets/images/VGHMobileLogo.png" data-slide="Videogame Hypeman"
+                        class="car-img img5" alt="Videogame Hypeman">
+                    <a href="https://matthewbryantdonovan.github.io/ProjectOne/" target="_blank" class="center-align teal-text text-darken-3"><i class="material-icons">web</i>Site</a>
+                    <a href="https://github.com/MatthewBryantDonovan/ProjectOne" target="_blank" class="center-align teal-text text-darken-3"><i
+                            class="material-icons">code</i>GitHub</a> </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m12">
+                <h1 id="title" class="center teal-text text-darken-2"></h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content teal accent-4 center-align">
+            <h4>Email me</h4>
+            <p class="grey-text text-darken-3">Please feel free to send me an email if you need help on any projects or
+                think I would make a great fit to your team!</p>
+            <a href="mailto:MatthewBryantDonovan@gmail.com"
+                class="teal darken-2 grey-text text-lighten-3 modal-close waves-effect waves-green btn-flat">MatthewBryantDonovan@gmail.com</a>
+            <div id="modalFooter" class="modal-footer">
+                <a href="#!"
+                    class="modal-close waves-effect waves-green btn-flat teal darken-2 grey-text text-lighten-3">Close</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js">
+    </script>
+    <script src="assets/javascript/app.js"></script>
+
+    <!--     <footer>
+        <p id="footP">"You must be shapeless, formless, like water." - Bruce Lee</p>
+    </footer> -->
+</body>
+
+</html>

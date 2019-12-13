@@ -1,0 +1,83 @@
+.namePad{
+    margin-left: 5vw;
+}
+
+a, p{
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: url(../images/congruent_pentagon.png);
+}
+
+#nameTitle2{
+    font-family: 'Girassol', cursive;
+}
+
+#nameTitle{
+    font-size: 1.35em;
+    font-family: 'Girassol', cursive;
+}
+
+#bio {
+    background: rgba(10, 143, 136, 0.55);
+    margin-top: 5vh;
+    padding: 2vw 2vh;
+    border: .1vw solid black;
+}
+
+p {
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.slick-arrow:before, .slick-arrow:after, .slick-arrow:focus, .slick-arrow:hover, .slick-arrow  {
+    width: 50px;
+    height: 50px;
+    background: #00796b;
+    z-index: 3;
+    border-radius: 50%;
+}
+
+#slickID {
+    background: url(../images/cat.gif);
+    background-size: 100% 100%;
+}
+
+.carouselSlick {
+    margin-top: 5vh;
+    width: 100vw;
+    display: none;
+}
+
+#title{
+    margin-top: -2.5vh;
+    display: none;
+    font-family: 'Girassol', cursive;
+    overflow: hidden;
+}
+
+.car {
+    height: 55vh;
+    text-align: center;
+}
+
+.gitHubLink {
+    text-decoration: none;
+}
+
+.modal-content {
+    border: .1vw solid black;
+}
+
+#modalFooter {
+    background: rgba(0, 0, 0, 0);
+}
+
+.btn-flat {
+    text-transform: unset;
+}
