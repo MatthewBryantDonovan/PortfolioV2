@@ -2,6 +2,10 @@
     margin-left: 5vw;
 }
 
+.biotxt{
+    font-size: 22px;
+}
+
 a, p{
     font-family: 'Nunito', sans-serif;
 }
@@ -81,3 +85,18 @@ img {
 .btn-flat {
     text-transform: unset;
 }
+
+@media only screen and (max-width: 824px) {
+    #contactMeBTN{
+        font-size: 11px;
+    }
+    #bio{
+        font-size: 5px;
+    }
+    .biotxt{
+        font-size: 15px;
+    }
+    #title{
+        font-size: 2.2rem;
+    }
+  }
