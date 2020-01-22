@@ -14,8 +14,12 @@ body {
     background: url(../images/congruent_pentagon.png);
 }
 
-#nameTitle2{
+#nameTitle2, #nameTitle1{
     font-family: 'Girassol', cursive;
+}
+
+#sideShamrock{
+    margin-top: 10vh;
 }
 
 #nameTitle{
@@ -55,12 +59,12 @@ img {
 .carouselSlick {
     margin-top: 5vh;
     width: 100vw;
-    display: none;
+    /* display: none; */
 }
 
 #title{
     margin-top: -2.5vh;
-    display: none;
+    /* display: none; */
     font-family: 'Girassol', cursive;
     overflow: hidden;
 }
