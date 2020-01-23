@@ -7,6 +7,17 @@ $(document).ready(function () {
     slidesToShow: 1,
     slidesToScroll: 1
   });
+  if(window.innerHeight > window.innerWidth){
+    //portrait
+    console.log("hey im port");
+    $(".pushdown").css("margin-top", "50vh")
+    
+}
+if(window.innerWidth > window.innerHeight){
+    //landscape
+    console.log("hey im land");
+    $(".pushdown").css("margin-top", "10vh")
+}
 
 });
 $(".slick-arrow").attr("id", "slickID");
@@ -28,6 +39,8 @@ $(".slick-arrow").attr("id", "slickID");
 //////////////////////
 //new
 function portfolio() {
+  
+  $('.sidenav').sidenav('close');
   $("#bio").css({
     position: "absolute",
     top: "-99999999px",
@@ -53,6 +66,7 @@ $(".slick-dots").css({
 }
 //new
 function bio() {
+  $('.sidenav').sidenav('close');
   $("#bio").css({
     position: "initial",
     top: "inherit",
@@ -70,31 +84,56 @@ function bio() {
   });
 }
 
+function contact() {
+  $('.sidenav').sidenav('close');
+}
 /////////////
 
-function CloseSidebar(){
-  $(".sidenav").sidenav('onCloseStart', instance.close());
-}
-
 $('body').on('mouseup', function() {
-  console.log( $('.slick-current').attr("data-slick-index") );
   setTimeout(function() { 
     $("#title").html($(".img"+$('.slick-current').attr("data-slick-index")).attr("data-slide"));
 }, 200);
 });
 
 $('body').on('keyup', function() {
-  console.log( $('.slick-current').attr("data-slick-index") );
   setTimeout(function() { 
     $("#title").html($(".img"+$('.slick-current').attr("data-slick-index")).attr("data-slide"));
 }, 100);
 });
 $('body').on('touchend', function() {
-  console.log( $('.slick-current').attr("data-slick-index") );
   setTimeout(function() { 
     $("#title").html($(".img"+$('.slick-current').attr("data-slick-index")).attr("data-slide"));
 }, 200);
 });
+
+/* $('.sidenav-trigger').on('click', function() {
+  if(window.innerHeight > window.innerWidth){
+    //portrait
+    console.log("hey im port");
+    $(".pushdown").css("margin-top", "50vh")
+    
+}
+if(window.innerWidth > window.innerHeight){
+    //landscape
+    console.log("hey im land");
+    $(".pushdown").css("margin-top", "10vh")
+}
+
+}); */
+
+$(window).on("orientationchange", function() {
+  if(window.innerHeight > window.innerWidth){
+    //portrait
+    console.log("hey im port");
+    $(".pushdown").css("margin-top", "10vh")
+    
+}
+if(window.innerWidth > window.innerHeight){
+    //landscape
+    console.log("hey im land");
+    $(".pushdown").css("margin-top", "50vh")
+}
+})
 
 
 ///////// trying to get the slick to load faster

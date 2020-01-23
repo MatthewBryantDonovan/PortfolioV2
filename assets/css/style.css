@@ -90,6 +90,10 @@ img {
     text-transform: unset;
 }
 
+.pushdown{
+    margin-top: 50vh;
+}
+
 @media only screen and (max-width: 824px) {
     #contactMeBTN{
         font-size: 11px;
