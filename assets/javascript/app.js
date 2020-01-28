@@ -92,17 +92,20 @@ function contact() {
 $('body').on('mouseup', function() {
   setTimeout(function() { 
     $("#title").html($(".img"+$('.slick-current').attr("data-slick-index")).attr("data-slide"));
+    $("#title-link").attr( "href", $(".link"+$('.slick-current').attr("data-slick-index")).attr("href"));
 }, 200);
 });
 
 $('body').on('keyup', function() {
   setTimeout(function() { 
     $("#title").html($(".img"+$('.slick-current').attr("data-slick-index")).attr("data-slide"));
+    $("#title-link").attr( "href", $(".link"+$('.slick-current').attr("data-slick-index")).attr("href"));
 }, 100);
 });
 $('body').on('touchend', function() {
   setTimeout(function() { 
     $("#title").html($(".img"+$('.slick-current').attr("data-slick-index")).attr("data-slide"));
+    $("#title-link").attr( "href", $(".link"+$('.slick-current').attr("data-slick-index")).attr("href"));
 }, 200);
 });
 
