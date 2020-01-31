@@ -42,7 +42,6 @@ $(".slick-arrow").attr("id", "slickID");
 //////////////////////
 //new
 function portfolio() {
-  
   $('.sidenav').sidenav('close');
   $("#bio").css({
     position: "absolute",
@@ -60,6 +59,16 @@ $("#title").css({
   top: "inherit",
   left: "inherit"
 });
+$("#technology").css({
+  position: "initial",
+  top: "inherit",
+  left: "inherit"
+});
+$("#solved").css({
+  position: "initial",
+  top: "inherit",
+  left: "inherit"
+});
 $(".slick-slider").css({
   position: "sticky"
 });
@@ -69,6 +78,8 @@ $(".slick-dots").css({
 }
 //new
 function bio() {
+  $("#technology").html("");
+  $("#solved").html("");
   $('.sidenav').sidenav('close');
   $("#bio").css({
     position: "initial",
@@ -81,6 +92,16 @@ function bio() {
     left: "-9999999999999px"
   });
   $("#title").css({
+    position: "absolute",
+    top: "-99999999px",
+    left: "-9999999999999px"
+  });
+  $("#technology").css({
+    position: "absolute",
+    top: "-99999999px",
+    left: "-9999999999999px"
+  });
+  $("#solved").css({
     position: "absolute",
     top: "-99999999px",
     left: "-9999999999999px"
@@ -159,56 +180,66 @@ $("#title").css({
   top: "-99999999px",
   left: "-9999999999999px"
 });
+$("#technology").css({
+  position: "absolute",
+  top: "-99999999px",
+  left: "-9999999999999px"
+});
+$("#solved").css({
+  position: "absolute",
+  top: "-99999999px",
+  left: "-9999999999999px"
+});
 
 //technology text
-//0
-technology[0] = "";
-//1
-technology[1] = "";
-//2
-technology[2] = "";
-//3
+//0 - giphyMatt
+technology[0] = "Technology highlights: AJAX, User Favorites, Bootstrap";
+//1 - Castlevania: Halls of Supremacy
+technology[1] = "Technology highlights: Click Events, jQuery, Bootstrap";
+//2 - John Wick Trivia
+technology[2] = "Technology highlights: Timers, Click Events, Object Methods";
+//3 - Rock Paper Scissors Online
 technology[3] = "Technology highlights: FireBase, jQuery, Bootstrap";
-//4
-technology[4] = "";
-//5
+//4 - Metal Gear Hangman
+technology[4] = "Technology highlights: Responsive Design, Click Events, JavaScript";
+//5 - Friend Finder
 technology[5] = "Technology highlights: Express, Node.js, MySQL";
-//6
-technology[6] = "";
-//7
-technology[7] = "";
-//8
-technology[8] = "";
-//9
-technology[9] = "";
-//10
+//6 - Liri Bot
+technology[6] = "Technology highlights: Axios, Node.js, CLI";
+//7 - Word Guess CLI
+technology[7] = "Technology highlights: Constructors, Node.js, CLI";
+//8 - Bamazon CLI
+technology[8] = "Technology highlights: MySQL, Node.js, CLI";
+//9 - Stardate API
+technology[9] = "Technology highlights: Restify, API, Moment.JS";
+//10 - Bob's Burgers!
 technology[10] = "Technology Highlights: JawsDB, Heroku, Handlebars";
-//11
+//11 - Videogame Hypeman
 technology[11] = "Technology Highlights: Slick.JS, REST, Materialize";
 
 
 //solved text
-//0
-solved[0] = "";
-//1
-solved[1] = "";
-//2
-solved[2] = "";
-//3
+//0 - giphyMatt
+solved[0] = "Find gifs of your favorite animals.";
+//1 - Castlevania: Halls of Supremacy
+solved[1] = "Play a browser based Role Playing Game with multiple paths to victory.";
+//2 - John Wick Trivia
+solved[2] = "Guess John Wick movie based questions correctly in this timed trivia game.";
+//3 - Rock Paper Scissors Online
 solved[3] = "Play RPS online with the ability to chat and spectate.";
-//4
-solved[4] = "";
-//5
+//4 - Metal Gear Hangman
+solved[4] = "Browser based hangman game with great audio.";
+//5 - Friend Finder
 solved[5] = "Find friends with closest degree of matching survey answers.";
-//6
-solved[6] = "";
-//7
-solved[7] = "";
-//8
-solved[8] = "";
-//9
-solved[9] = "";
-//10
+//6 - Liri Bot
+solved[6] = "This bot will will take commands to show concert, song, and move data.";
+//7 - Word Guess CLI
+solved[7] = "Play a hangman game with a Command Line interface.";
+//8 - Bamazon CLI
+solved[8] = "Command Line interface that allows customers to buy items from a MySQL database.";
+//9 - Stardate API
+solved[9] = "Convert dates into Star Trek stardates or Star Trek stardates into dates.";
+//10 - Bob's Burgers!
 solved[10] = "Web app to order burgers, reorder, or remove them.";
-//11
+//11 - Videogame Hypeman
 solved[11] = "Aggregation of video game media while keeping a clean UX.";
