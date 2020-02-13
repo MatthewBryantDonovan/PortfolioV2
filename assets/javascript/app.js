@@ -215,7 +215,7 @@ technology[9] = "Technology highlights: Restify, API, Moment.JS";
 //10 - Bob's Burgers!
 technology[10] = "Technology Highlights: JawsDB, Heroku, Handlebars";
 //11 - Videogame Hypeman
-technology[11] = "Technology Highlights: Slick.JS, REST, Materialize";
+technology[11] = "Technology Highlights: Vue.JS, Slick.JS, Materialize";
 
 
 //solved text
