@@ -214,8 +214,10 @@ technology[8] = "Technology highlights: MySQL, Node.js, CLI";
 technology[9] = "Technology highlights: Restify, API, Moment.JS";
 //10 - Bob's Burgers!
 technology[10] = "Technology Highlights: JawsDB, Heroku, Handlebars";
-//11 - Videogame Hypeman
-technology[11] = "Technology Highlights: Vue.JS, Slick.JS, Materialize";
+//11 - Up Game News!
+technology[11] = "Technology Highlights: mongoose, mongoDB, cheerio";
+//12 - Videogame Hypeman
+technology[12] = "Technology Highlights: Vue.JS, Slick.JS, Materialize";
 
 
 //solved text
@@ -241,5 +243,7 @@ solved[8] = "Command Line interface that allows customers to buy items from a My
 solved[9] = "Convert dates into Star Trek stardates or Star Trek stardates into dates.";
 //10 - Bob's Burgers!
 solved[10] = "Web app to order burgers, reorder, or remove them.";
-//11 - Videogame Hypeman
-solved[11] = "Aggregation of video game media while keeping a clean UX.";
+//12 - Up Game News!
+solved[11] = "Get freshly scraped GameSpot news for games, movies, and more!";
+//12 - Videogame Hypeman
+solved[12] = "Aggregation of video game media while keeping a clean UX.";
