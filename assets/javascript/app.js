@@ -48,7 +48,7 @@ function portfolio() {
     top: "-99999999px",
     left: "-9999999999999px"
   });
-  $('.carouselSlick').slick("getSlick").refresh(); 
+  $('.carouselSlick').slick("getSlick").refresh();
   // $(".slick-prev").click(); old method workaround above
 $(".carouselSlick").css({
   position: "inherit",
@@ -194,61 +194,61 @@ $("#solved").css({
 
 //technology text
 //0 - giphyMatt
-technology[0] = "Technology highlights: AJAX, User Favorites, Bootstrap";
+technology[13] = "Technology highlights: AJAX, User Favorites, Bootstrap";
 //1 - Castlevania: Halls of Supremacy
-technology[1] = "Technology highlights: Click Events, jQuery, Bootstrap";
+technology[12] = "Technology highlights: Click Events, jQuery, Bootstrap";
 //2 - John Wick Trivia
-technology[2] = "Technology highlights: Timers, Click Events, Object Methods";
+technology[11] = "Technology highlights: Timers, Click Events, Object Methods";
 //3 - Rock Paper Scissors Online
-technology[3] = "Technology highlights: FireBase, jQuery, Bootstrap";
+technology[10] = "Technology highlights: FireBase, jQuery, Bootstrap";
 //4 - Metal Gear Hangman
-technology[4] = "Technology highlights: Responsive Design, Click Events, JavaScript";
+technology[9] = "Technology highlights: Responsive Design, Click Events, JavaScript";
 //5 - Friend Finder
-technology[5] = "Technology highlights: Express, Node.js, MySQL";
+technology[8] = "Technology highlights: Express, Node.js, MySQL";
 //6 - Liri Bot
-technology[6] = "Technology highlights: Axios, Node.js, CLI";
+technology[7] = "Technology highlights: Axios, Node.js, CLI";
 //7 - Word Guess CLI
-technology[7] = "Technology highlights: Constructors, Node.js, CLI";
+technology[6] = "Technology highlights: Constructors, Node.js, CLI";
 //8 - Bamazon CLI
-technology[8] = "Technology highlights: MySQL, Node.js, CLI";
+technology[5] = "Technology highlights: MySQL, Node.js, CLI";
 //9 - Stardate API
-technology[9] = "Technology highlights: Restify, API, Moment.JS";
+technology[4] = "Technology highlights: Restify, API, Moment.JS";
 //10 - Bob's Burgers!
-technology[10] = "Technology Highlights: JawsDB, Heroku, Handlebars";
+technology[3] = "Technology Highlights: JawsDB, Heroku, Handlebars";
 //11 - Up Game News!
-technology[11] = "Technology Highlights: mongoose, mongoDB, cheerio";
+technology[2] = "Technology Highlights: mongoose, mongoDB, cheerio";
 //12 - Super Clicky Bros
-technology[12] = "Technology Highlights: React.JS, Materialize, React Components";
+technology[1] = "Technology Highlights: React.JS, Materialize, React Components";
 //13 - Videogame Hypeman
-technology[13] = "Technology Highlights: Vue.JS, Slick.JS, Materialize";
+technology[0] = "Technology Highlights: Vue.JS, Slick.JS, Materialize";
 
 
 //solved text
 //0 - giphyMatt
-solved[0] = "Find gifs of your favorite animals.";
+solved[13] = "Find gifs of your favorite animals.";
 //1 - Castlevania: Halls of Supremacy
-solved[1] = "Play a browser based Role Playing Game with multiple paths to victory.";
+solved[12] = "Play a browser based Role Playing Game with multiple paths to victory.";
 //2 - John Wick Trivia
-solved[2] = "Guess John Wick movie based questions correctly in this timed trivia game.";
+solved[11] = "Guess John Wick movie based questions correctly in this timed trivia game.";
 //3 - Rock Paper Scissors Online
-solved[3] = "Play RPS online with the ability to chat and spectate.";
+solved[10] = "Play RPS online with the ability to chat and spectate.";
 //4 - Metal Gear Hangman
-solved[4] = "Browser based hangman game with great audio.";
+solved[9] = "Browser based hangman game with great audio.";
 //5 - Friend Finder
-solved[5] = "Find friends with closest degree of matching survey answers.";
+solved[8] = "Find friends with closest degree of matching survey answers.";
 //6 - Liri Bot
-solved[6] = "This bot will will take commands to show concert, song, and move data.";
+solved[7] = "This bot will will take commands to show concert, song, and move data.";
 //7 - Word Guess CLI
-solved[7] = "Play a hangman game with a Command Line interface.";
+solved[6] = "Play a hangman game with a Command Line interface.";
 //8 - Bamazon CLI
-solved[8] = "Command Line interface that allows customers to buy items from a MySQL database.";
+solved[5] = "Command Line interface that allows customers to buy items from a MySQL database.";
 //9 - Stardate API
-solved[9] = "Convert dates into Star Trek stardates or Star Trek stardates into dates.";
+solved[4] = "Convert dates into Star Trek stardates or Star Trek stardates into dates.";
 //10 - Bob's Burgers!
-solved[10] = "Web app to order burgers, reorder, or remove them.";
+solved[3] = "Web app to order burgers, reorder, or remove them.";
 //12 - Up Game News!
-solved[11] = "Get freshly scraped GameSpot news for games, movies, and more!";
+solved[2] = "Get freshly scraped GameSpot news for games, movies, and more!";
 //12 - Super Clicky Bros
-solved[12] = "Memory game in which you click every character once, if you click them twice the game resets.";
+solved[1] = "Memory game in which you click every character once, if you click them twice the game resets.";
 //13 - Videogame Hypeman
-solved[13] = "Aggregation of video game media while keeping a clean UX.";
+solved[0] = "Aggregation of video game media while keeping a clean UX.";
