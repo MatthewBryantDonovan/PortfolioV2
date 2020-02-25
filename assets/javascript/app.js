@@ -48,7 +48,8 @@ function portfolio() {
     top: "-99999999px",
     left: "-9999999999999px"
   });
-  $(".slick-prev").click();
+  $('.carouselSlick').slick("getSlick").refresh();
+  // $(".slick-prev").click(); old method workaround above
 $(".carouselSlick").css({
   position: "inherit",
   top: "inherit",
@@ -216,8 +217,10 @@ technology[9] = "Technology highlights: Restify, API, Moment.JS";
 technology[10] = "Technology Highlights: JawsDB, Heroku, Handlebars";
 //11 - Up Game News!
 technology[11] = "Technology Highlights: mongoose, mongoDB, cheerio";
-//12 - Videogame Hypeman
-technology[12] = "Technology Highlights: Vue.JS, Slick.JS, Materialize";
+//12 - Super Clicky Bros
+technology[12] = "Technology Highlights: React.JS, Materialize, React Components";
+//13 - Videogame Hypeman
+technology[13] = "Technology Highlights: Vue.JS, Slick.JS, Materialize";
 
 
 //solved text
@@ -245,5 +248,7 @@ solved[9] = "Convert dates into Star Trek stardates or Star Trek stardates into 
 solved[10] = "Web app to order burgers, reorder, or remove them.";
 //12 - Up Game News!
 solved[11] = "Get freshly scraped GameSpot news for games, movies, and more!";
-//12 - Videogame Hypeman
-solved[12] = "Aggregation of video game media while keeping a clean UX.";
+//12 - Super Clicky Bros
+solved[12] = "Memory game in which you click every character once, if you click them twice the game resets.";
+//13 - Videogame Hypeman
+solved[13] = "Aggregation of video game media while keeping a clean UX.";
