@@ -48,7 +48,7 @@ function portfolio() {
     top: "-99999999px",
     left: "-9999999999999px"
   });
-  $('.carouselSlick').slick("getSlick").refresh();
+  $('.carouselSlick').slick("getSlick").refresh(); 
   // $(".slick-prev").click(); old method workaround above
 $(".carouselSlick").css({
   position: "inherit",
