@@ -194,61 +194,65 @@ $("#solved").css({
 
 //technology text
 //0 - giphyMatt
-technology[13] = "Technology highlights: AJAX, User Favorites, Bootstrap";
+technology[14] = "Technology highlights: AJAX, User Favorites, Bootstrap";
 //1 - Castlevania: Halls of Supremacy
-technology[12] = "Technology highlights: Click Events, jQuery, Bootstrap";
+technology[13] = "Technology highlights: Click Events, jQuery, Bootstrap";
 //2 - John Wick Trivia
-technology[11] = "Technology highlights: Timers, Click Events, Object Methods";
+technology[12] = "Technology highlights: Timers, Click Events, Object Methods";
 //3 - Rock Paper Scissors Online
-technology[10] = "Technology highlights: FireBase, jQuery, Bootstrap";
+technology[11] = "Technology highlights: FireBase, jQuery, Bootstrap";
 //4 - Metal Gear Hangman
-technology[9] = "Technology highlights: Responsive Design, Click Events, JavaScript";
+technology[10] = "Technology highlights: Responsive Design, Click Events, JavaScript";
 //5 - Friend Finder
-technology[8] = "Technology highlights: Express, Node.js, MySQL";
+technology[9] = "Technology highlights: Express, Node.js, MySQL";
 //6 - Liri Bot
-technology[7] = "Technology highlights: Axios, Node.js, CLI";
+technology[8] = "Technology highlights: Axios, Node.js, CLI";
 //7 - Word Guess CLI
-technology[6] = "Technology highlights: Constructors, Node.js, CLI";
+technology[7] = "Technology highlights: Constructors, Node.js, CLI";
 //8 - Bamazon CLI
-technology[5] = "Technology highlights: MySQL, Node.js, CLI";
+technology[6] = "Technology highlights: MySQL, Node.js, CLI";
 //9 - Stardate API
-technology[4] = "Technology highlights: Restify, API, Moment.JS";
+technology[5] = "Technology highlights: Restify, API, Moment.JS";
 //10 - Bob's Burgers!
-technology[3] = "Technology Highlights: JawsDB, Heroku, Handlebars";
+technology[4] = "Technology Highlights: JawsDB, Heroku, Handlebars";
 //11 - Up Game News!
-technology[2] = "Technology Highlights: mongoose, mongoDB, cheerio";
+technology[3] = "Technology Highlights: mongoose, mongoDB, cheerio";
 //12 - Super Clicky Bros
-technology[1] = "Technology Highlights: React.JS, Materialize, React Components";
+technology[2] = "Technology Highlights: React.JS, Materialize, React Components";
 //13 - Videogame Hypeman
 technology[0] = "Technology Highlights: Vue.JS, Slick.JS, Materialize";
+//14 - Matt Books Pro
+technology[1] = "Technology Highlights: React.JS, React-Router, Materialize";
 
 
 //solved text
 //0 - giphyMatt
-solved[13] = "Find gifs of your favorite animals.";
+solved[14] = "Find gifs of your favorite animals.";
 //1 - Castlevania: Halls of Supremacy
-solved[12] = "Play a browser based Role Playing Game with multiple paths to victory.";
+solved[13] = "Play a browser based Role Playing Game with multiple paths to victory.";
 //2 - John Wick Trivia
-solved[11] = "Guess John Wick movie based questions correctly in this timed trivia game.";
+solved[12] = "Guess John Wick movie based questions correctly in this timed trivia game.";
 //3 - Rock Paper Scissors Online
-solved[10] = "Play RPS online with the ability to chat and spectate.";
+solved[11] = "Play RPS online with the ability to chat and spectate.";
 //4 - Metal Gear Hangman
-solved[9] = "Browser based hangman game with great audio.";
+solved[10] = "Browser based hangman game with great audio.";
 //5 - Friend Finder
-solved[8] = "Find friends with closest degree of matching survey answers.";
+solved[9] = "Find friends with closest degree of matching survey answers.";
 //6 - Liri Bot
-solved[7] = "This bot will will take commands to show concert, song, and move data.";
+solved[8] = "This bot will will take commands to show concert, song, and move data.";
 //7 - Word Guess CLI
-solved[6] = "Play a hangman game with a Command Line interface.";
+solved[7] = "Play a hangman game with a Command Line interface.";
 //8 - Bamazon CLI
-solved[5] = "Command Line interface that allows customers to buy items from a MySQL database.";
+solved[6] = "Command Line interface that allows customers to buy items from a MySQL database.";
 //9 - Stardate API
-solved[4] = "Convert dates into Star Trek stardates or Star Trek stardates into dates.";
+solved[5] = "Convert dates into Star Trek stardates or Star Trek stardates into dates.";
 //10 - Bob's Burgers!
-solved[3] = "Web app to order burgers, reorder, or remove them.";
+solved[4] = "Web app to order burgers, reorder, or remove them.";
 //12 - Up Game News!
-solved[2] = "Get freshly scraped GameSpot news for games, movies, and more!";
+solved[3] = "Get freshly scraped GameSpot news for games, movies, and more!";
 //12 - Super Clicky Bros
-solved[1] = "Memory game in which you click every character once, if you click them twice the game resets.";
+solved[2] = "Memory game in which you click every character once, if you click them twice the game resets.";
 //13 - Videogame Hypeman
 solved[0] = "Aggregation of video game media while keeping a clean UX.";
+//14 - Matt Books Pro
+solved[1] = "Matt Books Pro allows users to save entries from google books to later view or buy them.";
